@@ -2,10 +2,9 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from 'next/navigation';
 import QrScanner from "qr-scanner";
-import { db } from "@/lib/firebase";
+import {db} from "@/lib/firebase";
 import {
-  collection,
-  doc,
+  collection,doc,
   addDoc,
   getDoc,
   query,
