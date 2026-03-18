@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "firebase": "^11.5.0",
     "json-2-csv": "^5.5.9",
     "next": "15.1.4",
